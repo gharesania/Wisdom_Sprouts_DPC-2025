@@ -19,7 +19,7 @@ function mergeArrays(arr1, arr2)
     arr1.sort((a, b) => a - b);
     arr2.sort((a, b) => a - b);
 
-    return [arr1, arr2]; // for clarity
+    return [arr1, arr2];
 }
 
 // Test Case 1:
